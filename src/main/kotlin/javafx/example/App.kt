@@ -7,6 +7,9 @@ import javafx.scene.control.Label
 import javafx.scene.layout.VBox
 import javafx.stage.Stage
 
+// Note the the Gradle jfxRun task directly launches the JavaFxExample
+// class, and bypasses this main function. This function exists so
+// you can easily launch the application with a debugger attached.
 fun main(args: Array<String>)
 {
     launch(JavaFXExample::class.java)
